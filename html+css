@@ -49,11 +49,14 @@
     <li>thunder</li>
     <li>other cats</li>
   </ol>
+  <div class="row">
+    <div class="col-xs-7">
   <form action="/submit-cat-photo">
     <div class="row">
       <div class="col-xs-6">
         <label><input type="radio" name="indoor-outdoor"> Indoor</label>
       </div>
+   
       <div class="col-xs-6">
         <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
       </div>
@@ -69,10 +72,14 @@
         <label><input type="checkbox" name="personality"> Crazy</label>
       </div>
     </div>
-    <input type="text" placeholder="cat photo URL" required>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    </i>
+    <div class="col-xs-5">
+    <input type="text" class="form-control" placeholder="cat photo URL" required>
+    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+    </div>
+       </div>
+    </div>
   </form>
 </div>
+
  </body>
  </html>
